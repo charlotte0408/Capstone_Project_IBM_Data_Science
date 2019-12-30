@@ -2,10 +2,19 @@
 This repository contains the capstone project for the IBM Data Science Certificate. 
 
 ### Title
-The Battle of Neighborhoods
+Exploring LA Neighborhoods
 
 ### Introduction
-This project aims to solve the question: if you would like to move to another community for a job offer, how can you decide which community to relocate to? You need to compare communities, for example, with amenitieis, the other types of venues that exist in the neighborhood, such as gourmet fast food joints, pharmacies, parks, grad schools and so on. This project solves the problem by analyzing the location data 
+This project is for the capstone project of the IBM Data Science Certificate.
+Los Angeles is one of the most popular cities in the US with diverse population and plenty of social places. More and more people are moving to or vising LA. They may be facing big difficulties of choosing neighbohoods. This project aims to cluster all neighborhoods in LA according to their venues and provide people with some suggestions.
 
 ### Dataset
-Location data is data describing places and venues, such as their geographical location, their category, working hours, full address, and so on, such that for a given location given in the form of its geographical coordinates (or latitude and longitude values) one is able to determine what types of venues exist within a defined radius from that location.So for a given location you will be able to tell if restaurants for example, exist nearby, or if schools, or parks, or gyms, or community centres exist nearby. Also how many of each category exist and how each surrounding venue is reviewed by other people. So this is what's referred to as location data.
+
+#### General
+Location data is data describing places and venues, such as their geographical location, their category, working hours, full address, and so on, such that for a given location given in the form of its geographical coordinates (or latitude and longitude values) one is able to determine what types of venues exist within a defined radius from that location.So for a given location you will be able to tell if restaurants for example, exist nearby, or if schools, or parks, or gyms, or community centres exist nearby. Also how many of each category exist and how each surrounding venue is reviewed by other people. So this is what's referred to as location data, which is subsutantially used in this project.
+
+#### Case-Specific
+This project uses two datasets:
+1. I found a dataset containing all geospatial data of LA neighborhoods online. Specifically, this dataset includes names of all neighborhoods, and the boundaries of each neighborhoords. For convenience's sake, I averaged all the boundaries of each neighborhood to get the centered position for each neighborhood. (Feel free to check it out https://s3-us-west-2.amazonaws.com/mappingla.com/downloads/neighborhoods/la_city.json)
+
+2. API data from FourSqaure to get the most common venues of each neighborhood in LA. 
