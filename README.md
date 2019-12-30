@@ -25,3 +25,10 @@ Then, I clustered all LA neighborhoods according to their venue information into
 
 ### Results
 LA neighborhoods can be clustered into 6 clusters, each with some unique characteristics with regards to their venues. 
+From the map, we can see that nearby neighborhoords do not necessarily have similary types of venues and are clustered together. Instead, each cluster spreads over a wide range. Let's take a careful examination for some interesting ones below.
+1. The First cluster has three neighborhoods. Their most common venues are different types of shops, including sports, cloths and drugstores. This cluster is suitable for those who enjoying shopping and have high commodity demand. 
+2. The Third cluster has three neighborhoods. Interestingly enough, their most common venues are parks and yoga studios. This cluster is espeically favorable for those who enjoy life and will take some time every day to exercise.
+3. The Fourth cluster contain the most number of neighborhoods. Therefore, their common venues vary a lot across different neighborhoods. However, they generally have restaurants, grocery stores, and some entertaining places. This cluster can satisfy most people's needs. 
+
+### Discussion
+This project provide the public a clearer understanding of LA neighborhoods and the distribution of venues within each neighborhoods. However, there are still some shortcomings. For example, the number of clusters is chosen by myself and each cluster makes senes, but there is not strict theorical proof that it is the optimal one. The choice of k can be improved. Please feel free to provide any suggestions. 
